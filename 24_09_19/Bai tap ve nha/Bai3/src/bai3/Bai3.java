@@ -24,7 +24,12 @@ public class Bai3 {
         //giai pt
         if(a == 0)
         {
-            System.out.println("\nPhuong trinh có 1 nghiem x = " + -c/b );
+            if(b == 0 && c == 0)
+                System.out.println("\nPhuong trinh vo so nghiem");
+            else if(b == 0 && c != 0)
+                System.out.println("\nPhuong trinh vo nghiem");
+            else
+                System.out.println("\nPhuong trinh co 1 nghiem x = " + -c/b );
         }
         else
         {
