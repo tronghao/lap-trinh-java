@@ -1,13 +1,10 @@
 
-package bai3;
+
 
 import java.util.Scanner;
 
 public class Bai3 {
 
-    /**
-     * Đề bài: Viết ct giải PTB2
-     */
     public static void main(String[] args) {
         float a,b,c, delta;
         Scanner input = new Scanner(System.in);
@@ -37,10 +34,10 @@ public class Bai3 {
             if(delta < 0)
                 System.out.println("\nPhuong trinh vo nghiem");
             else if(delta == 0)
-                System.out.println("\nPhuong trinh có nghiem kep x1 = x2 = " + -b/(2*a) );
+                System.out.println("\nPhuong trinh co nghiem kep x1 = x2 = " + -b/(2*a) );
             else
             {
-                System.out.println("\nPhuong trinh có 2 nghiem:");
+                System.out.println("\nPhuong trinh co 2 nghiem:");
                 System.out.println("\tx1 = " + (-b + Math.sqrt(delta))/(2*a) );
                 System.out.println("\tx2 = " + (-b - Math.sqrt(delta))/(2*a) );
             }
