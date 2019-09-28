@@ -3,7 +3,7 @@ package bai1;
 
 import java.util.Scanner;
 
-public class Bai1 {
+public class LietKeSNT {
 
     /**
      * Đề bài: Viết ct liệt kê các số nguyên tố trong khoảng (m,n) (m < n < 1000)

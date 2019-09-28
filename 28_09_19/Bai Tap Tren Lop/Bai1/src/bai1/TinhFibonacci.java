@@ -1,11 +1,11 @@
 
 package bai1;
 
-import static bai1.Bai3.giaiThua;
+import static bai1.TinhTongGiaiThua.giaiThua;
 import java.util.Scanner;
 
 
-public class Bai4 {
+public class TinhFibonacci {
     /**
      * Đề bài: Viết chương trình tính giá trị số Fibonacci F: F(0)=1, F(1)=1
      * F(n)=F(n-1) + F(n-2)

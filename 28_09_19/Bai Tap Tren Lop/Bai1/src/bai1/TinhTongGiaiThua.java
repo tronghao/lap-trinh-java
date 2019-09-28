@@ -3,7 +3,7 @@ package bai1;
 
 import java.util.Scanner;
 
-public class Bai3 {
+public class TinhTongGiaiThua {
     /**
      * Đề bài: Viết chương trình tính tổng S = 1! + 2! + ... + n!
      */

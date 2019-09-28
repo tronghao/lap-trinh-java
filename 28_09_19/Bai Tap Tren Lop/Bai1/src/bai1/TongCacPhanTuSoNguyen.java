@@ -3,7 +3,7 @@ package bai1;
 
 import java.util.Scanner;
 
-public class Bai5 {
+public class TongCacPhanTuSoNguyen {
     /**
      * Đề bài: Viết chương trình tính tổng các phần tử trong một số nguyên
      * vd : 2345 tổng = 2+3+4+5 = 14

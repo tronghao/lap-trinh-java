@@ -3,7 +3,7 @@ package bai1;
 
 import java.util.Scanner;
 
-public class Bai2 {
+public class TinhGiaiThua {
     /**
      * Đề bài: Viết chương trình tính giai thừa n
      */
