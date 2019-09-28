@@ -20,6 +20,8 @@ public class Bai4 {
             System.out.println("\nDay la so nguyen to");
         else
             System.out.println("\nDay khong la so nguyen to");
+        
+        
     }
     
     public static boolean ktSNT(int n)
