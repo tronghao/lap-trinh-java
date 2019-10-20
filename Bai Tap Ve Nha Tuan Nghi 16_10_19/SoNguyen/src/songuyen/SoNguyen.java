@@ -29,11 +29,13 @@ public class SoNguyen {
         else return b;
     }
     
-    public int min(int a, int b)
+    public int min(int a, int b, int c)
     {
-        if(a < b)
+        if(a < b && a < c)
             return a;
-        else return b;
+        else if(b < c)
+            return b;
+        else return c;
     }
     
     public int gcd(int a, int b)
@@ -46,15 +48,15 @@ public class SoNguyen {
     }
     
     public static void main(String[] args) {
-        int a = 6, b = 9;
+        int a = 6, b = 9, c = 5;
         
         SoNguyen sn = new SoNguyen();
-        System.out.println("a = " + a + "  b = " + b);
-        System.out.println("Add  = " + sn.add(a, b));
-        System.out.println("Mult  = " + sn.mult(a, b));
-        System.out.println("Max  = " + sn.max(a, b));
-        System.out.println("Min  = " + sn.min(a, b));
-        System.out.println("Gcd  = " + sn.gcd(a, b));
+        System.out.println("a = " + a + "  b = " + b + "  c = " + c);
+        System.out.println("Add(a,b)  = " + sn.add(a, b));
+        System.out.println("Mult(a,b)  = " + sn.mult(a, b));
+        System.out.println("Max(a,b)  = " + sn.max(a, b));
+        System.out.println("Min(a,b,c)  = " + sn.min(a, b, c));
+        System.out.println("Gcd(a,b)  = " + sn.gcd(a, b));
     }
     
 }
