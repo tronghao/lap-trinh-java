@@ -16,7 +16,7 @@ public class MangSoNguyen {
         5. Viết một phương thức int [] ReverseArray (int [] mảng) trả về một mảng mới lưu trữ các phần tử của mảng được đưa ra làm đối số.
         6. Viết một phương thức chính để kiểm tra các phương pháp trên.
      */
-    int min (int mang[])
+    public int min (int mang[])
     {
         int min = mang[0];
         for(int i=0; i < mang.length; i++)
@@ -27,7 +27,7 @@ public class MangSoNguyen {
         return min;
     }
     
-    int find (int mang[], int value)
+    public int find (int mang[], int value)
     {
         for(int i=0; i < mang.length; i++)
         {
@@ -37,7 +37,7 @@ public class MangSoNguyen {
         return -1;
     }
     
-    int sumArray (int mang[])
+    public int sumArray (int mang[])
     {
         int tong = 0;
         for(int i=0; i < mang.length; i++)
@@ -47,7 +47,7 @@ public class MangSoNguyen {
         return tong;
     }
     
-    void printArray (int mang[])
+    public void printArray (int mang[])
     {   
         for(int i=0; i < mang.length; i++)
         {
@@ -55,7 +55,7 @@ public class MangSoNguyen {
         }   
     }
     
-    int[] ReverseArray (int mang[])
+    public int[] ReverseArray (int mang[])
     {
         int mangDaoNguoc[] = new int[mang.length];
         for(int i=mang.length - 1; i >=0; i--)
