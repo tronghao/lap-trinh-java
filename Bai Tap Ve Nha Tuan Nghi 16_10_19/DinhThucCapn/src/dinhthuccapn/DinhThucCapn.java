@@ -52,8 +52,8 @@ public class DinhThucCapn {
     
     public static int dinhThucCap3(int a[][])
     {
-        int soTru = (a[0][0] * a[1][1] * a[2][2] + a[2][0] * a[0][1] * a[1][2] +a[0][2] * a[2][1] * a[1][0]);
-        int soBiTru = (a[0][2] * a[1][1] * a[2][0] + a[2][2] * a[1][0] * a[0][1] +a[0][0] * a[2][1] * a[1][2]);
-        return soTru - soBiTru;
+        int soBiTru = (a[0][0] * a[1][1] * a[2][2] + a[2][0] * a[0][1] * a[1][2] +a[0][2] * a[2][1] * a[1][0]);
+        int soTru = (a[0][2] * a[1][1] * a[2][0] + a[2][2] * a[1][0] * a[0][1] +a[0][0] * a[2][1] * a[1][2]);
+        return soBiTru - soTru;
     }
 }
